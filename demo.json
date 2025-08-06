@@ -1,0 +1,570 @@
+{
+  "settings": {
+    "defaultLanguage": "en",
+    "welcomeScreen": {
+      "enabled": true,
+      "duration": 2500
+    },
+    "wallpapers": {
+      "loading": "",
+      "default": "https://picsum.photos/seed/picsum/1920/1080"
+    }
+  },
+  "localization": {
+    "zh": {
+      "nativeName": "中文",
+      "rtl": false,
+      "iconSetLabel": "图标集:",
+      "systemNames": {
+        "PC": "此电脑",
+        "C_DRIVE": "本地磁盘 (C:)",
+        "D_DRIVE": "本地磁盘 (D:)",
+        "Users": "用户",
+        "Admin": "管理员",
+        "Desktop": "桌面",
+        "Documents": "文档",
+        "FeatureDemo": "功能演示"
+      },
+      "folderNameTemplate": "文件夹 {}",
+      "welcomeText": "欢迎",
+      "startMenuTitle": "已固定",
+      "startSettings": "设置",
+      "startShutdown": "关机",
+      "startExplorer": "文件资源管理器",
+      "notepadTitleSuffix": "- 记事本",
+      "addressSeparator": ">",
+      "settingsWindowTitle": "设置",
+      "themeLabel": "主题:",
+      "themeLight": "浅色",
+      "themeDark": "深色",
+      "shutdownConfirm": "您确定要关闭吗？",
+      "imagePreview": "图片预览"
+    },
+    "ar": {
+      "nativeName": "العربية",
+      "rtl": true,
+      "iconSetLabel": "مجموعة الأيقونات:",
+      "systemNames": {
+        "PC": "هذا الكمبيوتر",
+        "C_DRIVE": "القرص المحلي (C:)",
+        "D_DRIVE": "القرص المحلي (D:)",
+        "Users": "المستخدمون",
+        "Admin": "مسؤول",
+        "Desktop": "سطح المكتب",
+        "Documents": "المستندات",
+        "FeatureDemo": "عرض الميزات"
+      },
+      "folderNameTemplate": "مجلد {}",
+      "welcomeText": "أهلاً بك",
+      "startMenuTitle": "المثبتة",
+      "startSettings": "الإعدادات",
+      "startShutdown": "إيقاف التشغيل",
+      "startExplorer": "مستكشف الملفات",
+      "notepadTitleSuffix": "- المفكرة",
+      "addressSeparator": "<",
+      "settingsWindowTitle": "الإعدادات",
+      "themeLabel": "السمة:",
+      "themeLight": "فاتح",
+      "themeDark": "داكن",
+      "shutdownConfirm": "هل أنت متأكد من أنك تريد الإغلاق؟",
+      "imagePreview": "معاينة الصورة"
+    },
+    "hi": {
+      "nativeName": "हिन्दी",
+      "rtl": false,
+      "iconSetLabel": "आइकन सेट:",
+      "systemNames": {
+        "PC": "यह पीसी",
+        "C_DRIVE": "लोकल डिस्क (C:)",
+        "D_DRIVE": "लोकल डिस्क (D:)",
+        "Users": "उपयोगकर्ता",
+        "Admin": "एडमिन",
+        "Desktop": "डेस्कटॉप",
+        "Documents": "दस्तावेज़",
+        "FeatureDemo": "सुविधा डेमो"
+      },
+      "folderNameTemplate": "फ़ोल्डर {}",
+      "welcomeText": "स्वागत है",
+      "startMenuTitle": "पिन किया हुआ",
+      "startSettings": "सेटिंग्स",
+      "startShutdown": "बंद करें",
+      "startExplorer": "फ़ाइल एक्सप्लोरर",
+      "notepadTitleSuffix": "- नोटपैड",
+      "addressSeparator": ">",
+      "settingsWindowTitle": "सेटिंग्स",
+      "themeLabel": "थीम:",
+      "themeLight": "लाइट",
+      "themeDark": "डार्क",
+      "shutdownConfirm": "क्या आप वाकई बंद करना चाहते हैं?",
+      "imagePreview": "छवि पूर्वावलोकन"
+    },
+    "en": {
+      "nativeName": "English",
+      "rtl": false,
+      "iconSetLabel": "Icon Set:",
+      "systemNames": {
+        "PC": "This PC",
+        "C_DRIVE": "Local Disk (C:)",
+        "D_DRIVE": "Local Disk (D:)",
+        "Users": "Users",
+        "Admin": "Admin",
+        "Desktop": "Desktop",
+        "Documents": "Documents",
+        "FeatureDemo": "Feature Demo"
+      },
+      "folderNameTemplate": "Folder {}",
+      "welcomeText": "Welcome",
+      "startMenuTitle": "Pinned",
+      "startSettings": "Settings",
+      "startShutdown": "Shutdown",
+      "startExplorer": "File Explorer",
+      "notepadTitleSuffix": "- Notepad",
+      "addressSeparator": ">",
+      "settingsWindowTitle": "Settings",
+      "themeLabel": "Theme:",
+      "themeLight": "Light",
+      "themeDark": "Dark",
+      "shutdownConfirm": "Are you sure you want to shut down?",
+      "imagePreview": "Image Preview"
+    },
+    "es": {
+      "nativeName": "Español",
+      "rtl": false,
+      "iconSetLabel": "Set de Iconos:",
+      "systemNames": {
+        "PC": "Este equipo",
+        "C_DRIVE": "Disco local (C:)",
+        "D_DRIVE": "Disco local (D:)",
+        "Users": "Usuarios",
+        "Admin": "Administrador",
+        "Desktop": "Escritorio",
+        "Documents": "Documentos",
+        "FeatureDemo": "Demostración de funciones"
+      },
+      "folderNameTemplate": "Carpeta {}",
+      "welcomeText": "Bienvenido",
+      "startMenuTitle": "Anclado",
+      "startSettings": "Configuración",
+      "startShutdown": "Apagar",
+      "startExplorer": "Explorador de archivos",
+      "notepadTitleSuffix": "- Bloc de notas",
+      "addressSeparator": ">",
+      "settingsWindowTitle": "Configuración",
+      "themeLabel": "Tema:",
+      "themeLight": "Claro",
+      "themeDark": "Oscuro",
+      "shutdownConfirm": "¿Estás seguro de que quieres apagar?",
+      "imagePreview": "Vista previa de la imagen"
+    },
+    "bn": {
+      "nativeName": "বাংলা",
+      "rtl": false,
+      "iconSetLabel": "আইকন সেট:",
+      "systemNames": {
+        "PC": "এই পিসি",
+        "C_DRIVE": "লোকাল ডিস্ক (C:)",
+        "D_DRIVE": "লোকাল ডিস্ক (D:)",
+        "Users": "ব্যবহারকারী",
+        "Admin": "অ্যাডমিন",
+        "Desktop": "ডেস্কটপ",
+        "Documents": "নথিপত্র",
+        "FeatureDemo": "বৈশিষ্ট্য ডেমো"
+      },
+      "folderNameTemplate": "ফোল্ডার {}",
+      "welcomeText": "স্বাগতম",
+      "startMenuTitle": "পিন করা",
+      "startSettings": "সেটিংস",
+      "startShutdown": "শাট ডাউন",
+      "startExplorer": "ফাইল এক্সপ্লোরার",
+      "notepadTitleSuffix": "- নোটপ্যাড",
+      "addressSeparator": ">",
+      "settingsWindowTitle": "সেটিংস",
+      "themeLabel": "থিম:",
+      "themeLight": "হালকা",
+      "themeDark": "অন্ধকার",
+      "shutdownConfirm": "আপনি কি নিশ্চিতভাবে শাট ডাউন করতে চান?",
+      "imagePreview": "চিত্রের পূর্বরূপ"
+    },
+    "pt": {
+      "nativeName": "Português",
+      "rtl": false,
+      "iconSetLabel": "Conjunto de Ícones:",
+      "systemNames": {
+        "PC": "Este Computador",
+        "C_DRIVE": "Disco Local (C:)",
+        "D_DRIVE": "Disco Local (D:)",
+        "Users": "Usuários",
+        "Admin": "Administrador",
+        "Desktop": "Área de Trabalho",
+        "Documents": "Documentos",
+        "FeatureDemo": "Demonstração de Recursos"
+      },
+      "folderNameTemplate": "Pasta {}",
+      "welcomeText": "Bem-vindo",
+      "startMenuTitle": "Afixado",
+      "startSettings": "Configurações",
+      "startShutdown": "Desligar",
+      "startExplorer": "Explorador de Ficheiros",
+      "notepadTitleSuffix": "- Bloco de Notas",
+      "addressSeparator": ">",
+      "settingsWindowTitle": "Configurações",
+      "themeLabel": "Tema:",
+      "themeLight": "Claro",
+      "themeDark": "Escuro",
+      "shutdownConfirm": "Tem certeza de que deseja desligar?",
+      "imagePreview": "Pré-visualização de imagem"
+    },
+    "ru": {
+      "nativeName": "Русский",
+      "rtl": false,
+      "iconSetLabel": "Набор иконок:",
+      "systemNames": {
+        "PC": "Этот компьютер",
+        "C_DRIVE": "Локальный диск (C:)",
+        "D_DRIVE": "Локальный диск (D:)",
+        "Users": "Пользователи",
+        "Admin": "Администратор",
+        "Desktop": "Рабочий стол",
+        "Documents": "Документы",
+        "FeatureDemo": "Демонстрация функций"
+      },
+      "folderNameTemplate": "Папка {}",
+      "welcomeText": "Добро пожаловать",
+      "startMenuTitle": "Закрепленные",
+      "startSettings": "Настройки",
+      "startShutdown": "Выключение",
+      "startExplorer": "Проводник",
+      "notepadTitleSuffix": "- Блокнот",
+      "addressSeparator": ">",
+      "settingsWindowTitle": "Настройки",
+      "themeLabel": "Тема:",
+      "themeLight": "Светлая",
+      "themeDark": "Темная",
+      "shutdownConfirm": "Вы уверены, что хотите выключить?",
+      "imagePreview": "Предпросмотр изображения"
+    },
+    "ja": {
+      "nativeName": "日本語",
+      "rtl": false,
+      "iconSetLabel": "アイコンセット:",
+      "systemNames": {
+        "PC": "このPC",
+        "C_DRIVE": "ローカルディスク (C:)",
+        "D_DRIVE": "ローカルディスク (D:)",
+        "Users": "ユーザー",
+        "Admin": "管理者",
+        "Desktop": "デスクトップ",
+        "Documents": "ドキュメント",
+        "FeatureDemo": "機能デモ"
+      },
+      "folderNameTemplate": "フォルダー {}",
+      "welcomeText": "ようこそ",
+      "startMenuTitle": "ピン留め済み",
+      "startSettings": "設定",
+      "startShutdown": "シャットダウン",
+      "startExplorer": "エクスプローラー",
+      "notepadTitleSuffix": "- メモ帳",
+      "addressSeparator": ">",
+      "settingsWindowTitle": "設定",
+      "themeLabel": "テーマ:",
+      "themeLight": "ライト",
+      "themeDark": "ダーク",
+      "shutdownConfirm": "シャットダウンしてもよろしいですか？",
+      "imagePreview": "画像プレビュー"
+    },
+    "de": {
+      "nativeName": "Deutsch",
+      "rtl": false,
+      "iconSetLabel": "Symbolsatz:",
+      "systemNames": {
+        "PC": "Dieser PC",
+        "C_DRIVE": "Lokaler Datenträger (C:)",
+        "D_DRIVE": "Lokaler Datenträger (D:)",
+        "Users": "Benutzer",
+        "Admin": "Administrator",
+        "Desktop": "Desktop",
+        "Documents": "Dokumente",
+        "FeatureDemo": "Funktionsdemo"
+      },
+      "folderNameTemplate": "Ordner {}",
+      "welcomeText": "Willkommen",
+      "startMenuTitle": "Angeheftet",
+      "startSettings": "Einstellungen",
+      "startShutdown": "Herunterfahren",
+      "startExplorer": "Datei-Explorer",
+      "notepadTitleSuffix": "- Editor",
+      "addressSeparator": ">",
+      "settingsWindowTitle": "Einstellungen",
+      "themeLabel": "Thema:",
+      "themeLight": "Hell",
+      "themeDark": "Dunkel",
+      "shutdownConfirm": "Sind Sie sicher, dass Sie herunterfahren möchten?",
+      "imagePreview": "Bildvorschau"
+    },
+    "ko": {
+      "nativeName": "한국어",
+      "rtl": false,
+      "iconSetLabel": "아이콘 세트:",
+      "systemNames": {
+        "PC": "내 PC",
+        "C_DRIVE": "로컬 디스크 (C:)",
+        "D_DRIVE": "로컬 디스크 (D:)",
+        "Users": "사용자",
+        "Admin": "관리자",
+        "Desktop": "바탕 화면",
+        "Documents": "문서",
+        "FeatureDemo": "기능 데모"
+      },
+      "folderNameTemplate": "폴더 {}",
+      "welcomeText": "환영합니다",
+      "startMenuTitle": "고정됨",
+      "startSettings": "설정",
+      "startShutdown": "종료",
+      "startExplorer": "파일 탐색기",
+      "notepadTitleSuffix": "- 메모장",
+      "addressSeparator": ">",
+      "settingsWindowTitle": "설정",
+      "themeLabel": "테마:",
+      "themeLight": "라이트",
+      "themeDark": "다크",
+      "shutdownConfirm": "종료하시겠습니까?",
+      "imagePreview": "이미지 미리보기"
+    },
+    "fr": {
+      "nativeName": "Français",
+      "rtl": false,
+      "iconSetLabel": "Jeu d'icônes:",
+      "systemNames": {
+        "PC": "Ce PC",
+        "C_DRIVE": "Disque local (C:)",
+        "D_DRIVE": "Disque local (D:)",
+        "Users": "Utilisateurs",
+        "Admin": "Administrateur",
+        "Desktop": "Bureau",
+        "Documents": "Documents",
+        "FeatureDemo": "Démo des fonctionnalités"
+      },
+      "folderNameTemplate": "Dossier {}",
+      "welcomeText": "Bienvenue",
+      "startMenuTitle": "Épinglé",
+      "startSettings": "Paramètres",
+      "startShutdown": "Arrêter",
+      "startExplorer": "Explorateur de fichiers",
+      "notepadTitleSuffix": "- Bloc-notes",
+      "addressSeparator": ">",
+      "settingsWindowTitle": "Paramètres",
+      "themeLabel": "Thème:",
+      "themeLight": "Clair",
+      "themeDark": "Sombre",
+      "shutdownConfirm": "Voulez-vous vraiment arrêter?",
+      "imagePreview": "Aperçu de l'image"
+    },
+    "uk": {
+      "nativeName": "Українська",
+      "rtl": false,
+      "iconSetLabel": "Набір іконок:",
+      "systemNames": {
+        "PC": "Цей комп'ютер",
+        "C_DRIVE": "Локальний диск (C:)",
+        "D_DRIVE": "Локальний диск (D:)",
+        "Users": "Користувачі",
+        "Admin": "Адміністратор",
+        "Desktop": "Робочий стіл",
+        "Documents": "Документи",
+        "FeatureDemo": "Демонстрація функцій"
+      },
+      "folderNameTemplate": "Папка {}",
+      "welcomeText": "Ласкаво просимо",
+      "startMenuTitle": "Закріплено",
+      "startSettings": "Налаштування",
+      "startShutdown": "Вимкнути",
+      "startExplorer": "Провідник",
+      "notepadTitleSuffix": "- Блокнот",
+      "addressSeparator": ">",
+      "settingsWindowTitle": "Налаштування",
+      "themeLabel": "Тема:",
+      "themeLight": "Світла",
+      "themeDark": "Темна",
+      "shutdownConfirm": "Ви впевнені, що хочете вимкнути?",
+      "imagePreview": "Перегляд зображення"
+    }
+  },
+  "desktopItems": {
+    "demoIcon": {
+      "name": "FeatureDemo",
+      "type": "folder",
+      "targetPath": [
+        "PC",
+        "C_DRIVE",
+        "Users",
+        "Admin",
+        "Desktop",
+        "FeatureDemo"
+      ]
+    }
+  },
+  "fileSystem": {
+    "PC": {
+      "children": {
+        "C_DRIVE": {
+          "type": "folder",
+          "children": {
+            "Users": {
+              "type": "folder",
+              "children": {
+                "Admin": {
+                  "type": "folder",
+                  "children": {
+                    "Desktop": {
+                      "type": "folder",
+                      "children": {
+                        "FeatureDemo": {
+                          "type": "folder",
+                          "children": {
+                            "folder_1": {
+                              "type": "folder",
+                              "children": {
+                                "Welcome.txt": {
+                                  "type": "file",
+                                  "content": {
+                                    "en": "Welcome to the feature demo!",
+                                    "uk": "Ласкаво просимо до демонстрації функцій!",
+                                    "ru": "Добро пожаловать в демонстрацию функций!",
+                                    "zh": "欢迎来到功能演示！",
+                                    "ar": "مرحبًا بك في العرض التوضيحي للميزات!",
+                                    "hi": "फ़ीचर डेमो में आपका स्वागत है!",
+                                    "es": "¡Bienvenido a la demostración de funciones!",
+                                    "bn": "বৈশিষ্ট্য ডেমোতে স্বাগতম!",
+                                    "pt": "Bem-vindo à demonstração de recursos!",
+                                    "ja": "機能デモへようこそ！",
+                                    "de": "Willkommen zur Funktionsdemo!",
+                                    "ko": "기능 데모에 오신 것을 환영합니다!",
+                                    "fr": "Bienvenue dans la démo des fonctionnalités !"
+                                  }
+                                }
+                              }
+                            },
+                            "folder_2": {
+                              "type": "folder",
+                              "children": {
+                                "Nature.png": {
+                                  "type": "image",
+                                  "src": "https://picsum.photos/seed/nature/800/600"
+                                },
+                                "Next.txt": {
+                                  "type": "file",
+                                  "content": {
+                                    "en": "Nice, right? Now, let's watch a video.",
+                                    "uk": "Гарно, правда? А тепер давайте подивимось відео.",
+                                    "ru": "Красиво, правда? Теперь давайте посмотрим видео.",
+                                    "zh": "不错吧？现在，让我们观看一个视频。",
+                                    "ar": "جميل، أليس كذلك؟ الآن، دعنا نشاهد مقطع فيديو.",
+                                    "hi": "अच्छा है, है ना? अब, एक वीडियो देखते हैं।",
+                                    "es": "¿Bonito, verdad? Ahora, veamos un vídeo.",
+                                    "bn": "সুন্দর, তাই না? এখন, একটি ভিডিও দেখা যাক।",
+                                    "pt": "Bonito, certo? Agora, vamos ver um vídeo.",
+                                    "ja": "いいでしょう？では、ビデオを見ましょう。",
+                                    "de": "Schön, oder? Sehen wir uns jetzt ein Video an.",
+                                    "ko": "멋지죠? 이제 비디오를 봅시다。",
+                                    "fr": "Joli, n'est-ce pas ? Maintenant, regardons une vidéo."
+                                  }
+                                }
+                              }
+                            },
+                            "folder_3": {
+                              "type": "folder",
+                              "children": {
+                                "SampleVideo.mp4": {
+                                  "type": "video",
+                                  "src": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+                                },
+                                "Next.txt": {
+                                  "type": "file",
+                                  "content": {
+                                    "en": "Time for a little game.",
+                                    "uk": "Час для маленької гри.",
+                                    "ru": "Время для небольшой игры.",
+                                    "zh": "是时候玩个小游戏了。",
+                                    "ar": "حان وقت لعبة صغيرة.",
+                                    "hi": "एक छोटे से खेल का समय।",
+                                    "es": "¡Hora de un pequeño juego.",
+                                    "bn": "একটি ছোট খেলার সময়।",
+                                    "pt": "Hora de um joguinho.",
+                                    "ja": "ちょっとしたゲームの時間です。",
+                                    "de": "Zeit für ein kleines Spiel.",
+                                    "ko": "작은 게임 시간입니다.",
+                                    "fr": "C'est l'heure d'un petit jeu."
+                                  }
+                                }
+                              }
+                            },
+                            "folder_4": {
+                              "type": "folder",
+                              "children": {
+                                "Clicker.html": {
+                                  "type": "game",
+                                  "srcdoc": "<!DOCTYPE html><html><head><title>Clicker</title><style>body{display:flex;flex-direction:column;align-items:center;justify-content:center;height:100vh;margin:0;font-family:sans-serif;background-color:#222;color:white;text-align:center;} button{padding:20px 40px; font-size:2rem;}</style></head><body><h1>Click the Button!</h1><p>Clicks: <span id='count'>0</span></p><button onclick='document.getElementById(\"count\").innerText++'>Click Me</button></body></html>"
+                                },
+                                "Next.txt": {
+                                  "type": "file",
+                                  "content": {
+                                    "en": "Hope you had fun. Lastly, let's see an iframe.",
+                                    "uk": "Сподіваюся, вам було весело. Нарешті, давайте подивимось на iframe.",
+                                    "ru": "Надеюсь, вам было весело. Наконец, давайте посмотрим на iframe.",
+                                    "zh": "希望你玩得开心。最后，让我们看看iframe。",
+                                    "ar": "أتمنى أنك استمتعت. أخيرًا، دعنا نرى iframe.",
+                                    "hi": "आशा है कि आपको मज़ा आया। अंत में, एक आईफ्रेम देखते हैं।",
+                                    "es": "Espero que te hayas divertido. Por último, veamos un iframe.",
+                                    "bn": "আশা করি আপনি মজা পেয়েছেন। সবশেষে, একটি আইফ্রেম দেখা যাক।",
+                                    "pt": "Espero que você tenha se divertido. Por fim, vamos ver um iframe.",
+                                    "ja": "楽しんでいただけたでしょうか。最後に、iframeを見てみましょう。",
+                                    "de": "Ich hoffe, du hattest Spaß. Zuletzt sehen wir uns ein Iframe an.",
+                                    "ko": "재미있었기를 바랍니다. 마지막으로 iframe이 작동하는 것을 봅시다。",
+                                    "fr": "J'espère que vous vous êtes amusé. Pour finir, voyons un iframe."
+                                  }
+                                }
+                              }
+                            },
+                            "folder_5": {
+                              "type": "folder",
+                              "children": {
+                                "Wikipedia.html": {
+                                  "type": "iframe",
+                                  "src": "https://www.wikipedia.org/"
+                                },
+                                "Final.txt": {
+                                  "type": "file",
+                                  "content": {
+                                    "en": "This concludes the demo. Thanks for checking it out!",
+                                    "uk": "На цьому демонстрацію завершено. Дякуємо за перегляд!",
+                                    "ru": "На этом демонстрация завершена. Спасибо за просмотр!",
+                                    "zh": "演示到此结束。感谢您的查看！",
+                                    "ar": "بهذا ينتهي العرض التوضيحي. شكرا لتفقدك!",
+                                    "hi": "यह डेमो समाप्त होता है। इसे देखने के জন্য धन्यवाद!",
+                                    "es": "Esto concluye la demostración. ¡Gracias por echarle un vistazo!",
+                                    "bn": "এই ডেমোটি শেষ হলো। এটি দেখার জন্য ধন্যবাদ!",
+                                    "pt": "A demonstração termina aqui. Obrigado por conferir!",
+                                    "ja": "これでデмоは終了です。チェックしていただきありがとうございます！",
+                                    "de": "Dies schließt die Demo ab. Danke für's Reinschauen!",
+                                    "ko": "이것으로 데모를 마칩니다. 확인해 주셔서 감사합니다!",
+                                    "fr": "Ceci conclut la démo. Merci d'avoir regardé !"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "Documents": { "type": "folder", "children": {} }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "D_DRIVE": { "type": "folder", "children": {} }
+      }
+    }
+  }
+}
