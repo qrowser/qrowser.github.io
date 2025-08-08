@@ -182,6 +182,47 @@ document.addEventListener("DOMContentLoaded", () => {
     return key;
   };
 
+  /**
+   * Recursively processes the file system to generate folders based on the `generateFolders` property.
+   * @param {object} object - The current node in the file system to process.
+   */
+  const processGeneratedFolders = (object) => {
+    // Loop through each key in the current object level (e.g., "PC", "C_DRIVE")
+    for (const key in object) {
+      if (Object.prototype.hasOwnProperty.call(object, key)) {
+        const item = object[key];
+
+        if (item && typeof item === "object") {
+          // If the item is a folder with the generateFolders property, generate them.
+          if (
+            item.type === "folder" &&
+            typeof item.generateFolders === "number" &&
+            item.generateFolders > 0
+          ) {
+            if (!item.children) {
+              item.children = {};
+            }
+            for (let i = 1; i <= item.generateFolders; i++) {
+              const folderName = `folder_${i}`;
+              if (!item.children[folderName]) {
+                item.children[folderName] = {
+                  type: "folder",
+                  children: {},
+                };
+              }
+            }
+          }
+
+          // If the item has children, recurse into them.
+          // This is now outside the "type" check, allowing it to traverse the whole tree.
+          if (item.children) {
+            processGeneratedFolders(item.children);
+          }
+        }
+      }
+    }
+  };
+
   // --- WINDOW MANAGEMENT ---
   const setActiveWindow = (winEl) => {
     allWindows.forEach((win) => {
@@ -552,6 +593,43 @@ document.addEventListener("DOMContentLoaded", () => {
   const setupDesktop = () => {
     const desktopContainer = getEl("desktop");
     desktopContainer.innerHTML = ""; // Clear previous icons before re-rendering
+
+    // --- START: MODIFICATION ---
+    // Define the path to the desktop folder in the file system
+    const desktopPath = ["PC", "C_DRIVE", "Users", "Admin", "Desktop"];
+    const desktopContents = getObjectByPath(desktopPath);
+
+    if (desktopContents) {
+      Object.entries(desktopContents).forEach(([key, item]) => {
+        // Skip non-object items and the FeatureDemo folder if it's already a desktop shortcut
+        if (
+          typeof item !== "object" ||
+          item === null ||
+          CONFIG.desktopItems.demoIcon.name === key
+        )
+          return;
+
+        const iconEl = document.createElement("div");
+        iconEl.className = "icon";
+        iconEl.tabIndex = 0;
+        iconEl.innerHTML = item.iconSVG || ICONS[item.type] || ICONS.file;
+        const p = document.createElement("p");
+        p.textContent = getLocalizedName(key);
+        iconEl.appendChild(p);
+
+        iconEl.addEventListener("dblclick", () => {
+          // Construct the full path to the item
+          const itemPath = [...desktopPath, key];
+          currentPath = itemPath;
+          historyStack = [];
+          openWindow(folderWindow);
+          renderFolderContents(currentPath);
+        });
+        desktopContainer.appendChild(iconEl);
+      });
+    }
+    // --- END: MODIFICATION ---
+
     if (!CONFIG.desktopItems) return;
 
     Object.entries(CONFIG.desktopItems).forEach(([id, item]) => {
@@ -666,6 +744,7 @@ document.addEventListener("DOMContentLoaded", () => {
       CONFIG = await response.json();
 
       FILE_SYSTEM = CONFIG.fileSystem;
+      processGeneratedFolders(FILE_SYSTEM);
       currentLang = CONFIG.settings?.defaultLanguage || "en";
       availableLangs = Object.keys(CONFIG.localization || { en: {} });
 

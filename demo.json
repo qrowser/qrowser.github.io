@@ -417,9 +417,11 @@
                   "children": {
                     "Desktop": {
                       "type": "folder",
+                      "generateFolders": 2,
                       "children": {
                         "FeatureDemo": {
                           "type": "folder",
+                          "generateFolders": 999,
                           "children": {
                             "folder_1": {
                               "type": "folder",
@@ -481,19 +483,19 @@
                                 "Next.txt": {
                                   "type": "file",
                                   "content": {
-                                    "en": "Time for a little game.",
-                                    "uk": "Час для маленької гри.",
-                                    "ru": "Время для небольшой игры.",
-                                    "zh": "是时候玩个小游戏了。",
-                                    "ar": "حان وقت لعبة صغيرة.",
-                                    "hi": "एक छोटे से खेल का समय।",
-                                    "es": "¡Hora de un pequeño juego.",
-                                    "bn": "একটি ছোট খেলার সময়।",
-                                    "pt": "Hora de um joguinho.",
-                                    "ja": "ちょっとしたゲームの時間です。",
-                                    "de": "Zeit für ein kleines Spiel.",
-                                    "ko": "작은 게임 시간입니다.",
-                                    "fr": "C'est l'heure d'un petit jeu."
+                                    "en": "Time for a little game. Your quest is to find the number of the next folder hidden in the world. Use your mouse to look around, left-click to fly forward, and right-click to fly backward.",
+                                    "uk": "Час для маленької гри. Ваше завдання - знайти номер наступної папки, захований у світі. Використовуйте мишу, щоб озиратися, ліву кнопку миші, щоб летіти вперед, і праву кнопку миші, щоб летіти назад.",
+                                    "ru": "Время для небольшой игры. Ваша задача — найти номер следующей папки, спрятанный в этом мире. Используйте мышь, чтобы осматриваться, левую кнопку мыши, чтобы лететь вперед, и правую кнопку мыши, чтобы лететь назад.",
+                                    "zh": "是时候玩个小游戏了。 你的任务是找到隐藏在世界中的下一个文件夹的编号。 用鼠标环顾四周，左键向前飞，右键向后飞。",
+                                    "ar": "حان وقت لعبة صغيرة. مهمتك هي العثور على رقم المجلد التالي المخبأ في العالم. استخدم الماوس للنظر حولك، والنقر بزر الماوس الأيسر للطيران إلى الأمام، والنقر بزر الماوس الأيمن للطيران إلى الخلف.",
+                                    "hi": "एक छोटे से खेल का समय। आपका काम दुनिया में छिपे अगले फ़ोल्डर की संख्या खोजना है। चारों ओर देखने के लिए अपने माउस का, आगे उड़ने के लिए बाएं-क्लिक का और पीछे उड़ने के लिए दाएं-क्लिक का उपयोग करें।",
+                                    "es": "¡Hora de un pequeño juego! Tu misión es encontrar el número de la siguiente carpeta, escondido en el mundo. Usa el ratón para mirar a tu alrededor, clic izquierdo para volar hacia adelante y clic derecho para volar hacia atrás.",
+                                    "bn": "একটি ছোট খেলার সময়। আপনার উদ্দেশ্য হল বিশ্বের মধ্যে লুকানো পরবর্তী ফোল্ডারের নম্বরটি খুঁজে বের করা। চারপাশে তাকাতে আপনার মাউস, সামনে উড়তে বাম-ক্লিক এবং পিছনে উড়তে ডান-ক্লিক ব্যবহার করুন।",
+                                    "pt": "Hora de um joguinho. Sua missão é encontrar o número da próxima pasta, escondido no mundo. Use o mouse para olhar ao redor, clique com o botão esquerdo para voar para a frente e clique com o botão direito para voar para trás.",
+                                    "ja": "ちょっとしたゲームの時間です。 あなたのクエストは、ワールドに隠された次のフォルダの番号を見つけることです。 マウスを使用して周りを見回し、左クリックで前方に飛行し、右クリックで後方に飛行します。",
+                                    "de": "Zeit für ein kleines Spiel. Deine Aufgabe ist es, die Nummer des nächsten Ordners zu finden, die in der Welt versteckt ist. Benutze deine Maus, um dich umzusehen, Linksklick, um vorwärts zu fliegen, und Rechtsklick, um rückwärts zu fliegen.",
+                                    "ko": "작은 게임 시간입니다. 당신의 퀘스트는 월드에 숨겨진 다음 폴더의 번호를 찾는 것입니다. 마우스를 사용하여 주위를 둘러보고, 왼쪽 클릭으로 앞으로 날아가고, 오른쪽 클릭으로 뒤로 날아갑니다.",
+                                    "fr": "C'est l'heure d'un petit jeu. Votre quête est de trouver le numéro du prochain dossier, caché dans le monde. Utilisez votre souris pour regarder autour de vous, le clic gauche pour avancer et le clic droit pour reculer."
                                   }
                                 }
                               }
@@ -501,9 +503,9 @@
                             "folder_4": {
                               "type": "folder",
                               "children": {
-                                "Clicker.html": {
+                                "Game.html": {
                                   "type": "game",
-                                  "srcdoc": "<!DOCTYPE html><html><head><title>Clicker</title><style>body{display:flex;flex-direction:column;align-items:center;justify-content:center;height:100vh;margin:0;font-family:sans-serif;background-color:#222;color:white;text-align:center;} button{padding:20px 40px; font-size:2rem;}</style></head><body><h1>Click the Button!</h1><p>Clicks: <span id='count'>0</span></p><button onclick='document.getElementById(\"count\").innerText++'>Click Me</button></body></html>"
+                                  "srcdoc": "<!DOCTYPE html><html lang=\"en\"><head><title>Quest: Find the Number!</title><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0\"><link type=\"text/css\" rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/gh/mrdoob/three.js@master/examples/main.css\"><style>body{background-color: #bfd1e5;color: #61443e;} a{color: #a06851;}</style></head><body><div id=\"container\"></div><script type=\"importmap\">{\"imports\": {\"three\": \"https://cdn.jsdelivr.net/gh/mrdoob/three.js@master/build/three.module.js\",\"three/addons/\": \"https://cdn.jsdelivr.net/gh/mrdoob/three.js@master/examples/jsm/\"}}</script><script type=\"module\">import * as THREE from 'three';import { FirstPersonControls } from 'three/addons/controls/FirstPersonControls.js';import { ImprovedNoise } from 'three/addons/math/ImprovedNoise.js';import * as BufferGeometryUtils from 'three/addons/utils/BufferGeometryUtils.js';import { FontLoader } from 'three/addons/loaders/FontLoader.js';import { TextGeometry } from 'three/addons/geometries/TextGeometry.js';let container;let camera, controls, scene, renderer;const worldWidth = 128, worldDepth = 128;const worldHalfWidth = worldWidth / 2;const worldHalfDepth = worldDepth / 2;const data = generateHeight( worldWidth, worldDepth );const clock = new THREE.Clock();init();function init() {container = document.getElementById( 'container' );camera = new THREE.PerspectiveCamera( 60, window.innerWidth / window.innerHeight, 1, 20000 );camera.position.y = getY( worldHalfWidth, worldHalfDepth ) * 100 + 150;scene = new THREE.Scene();scene.background = new THREE.Color( 0xbfd1e5 );const numberToFind = window.location.hash.substring(1) || 'Folder-5';const loader = new FontLoader();loader.load('https://cdn.jsdelivr.net/gh/mrdoob/three.js@master/examples/fonts/helvetiker_regular.typeface.json', function (font) {const textGeometry = new TextGeometry(numberToFind, {font: font,size: 20,height: 5,curveSegments: 12,bevelEnabled: true,bevelThickness: 1,bevelSize: 1,bevelSegments: 5});const textMaterial = new THREE.MeshPhongMaterial({ color: 0xff4500 });const textMesh = new THREE.Mesh(textGeometry, textMaterial);textGeometry.center();const randomX = Math.floor(Math.random() * worldWidth);const randomZ = Math.floor(Math.random() * worldDepth);const xPos = randomX * 100 - worldHalfWidth * 100;const zPos = randomZ * 100 - worldHalfDepth * 100;textGeometry.computeBoundingBox();const textHeight = textGeometry.boundingBox.max.y - textGeometry.boundingBox.min.y;const groundSurfaceHeight = (getY(randomX, randomZ) * 100) + 50;const yPos = groundSurfaceHeight + (textHeight / 2) + 0.1;textMesh.position.set(xPos, yPos, zPos);textMesh.rotation.y = Math.random() * Math.PI * 2;textMesh.rotation.x = (Math.random() - 0.5) * 0.4;textMesh.rotation.z = (Math.random() - 0.5) * 0.4;scene.add(textMesh);console.log(`Quest: Find the number ${numberToFind}!`);console.log(`Hint: The number is hidden near coordinates X: ${Math.round(xPos)}, Z: ${Math.round(zPos)}`);});const matrix = new THREE.Matrix4();const pxGeometry = new THREE.PlaneGeometry( 100, 100 );pxGeometry.attributes.uv.array[ 1 ] = 0.5;pxGeometry.attributes.uv.array[ 3 ] = 0.5;pxGeometry.rotateY( Math.PI / 2 );pxGeometry.translate( 50, 0, 0 );const nxGeometry = new THREE.PlaneGeometry( 100, 100 );nxGeometry.attributes.uv.array[ 1 ] = 0.5;nxGeometry.attributes.uv.array[ 3 ] = 0.5;nxGeometry.rotateY( - Math.PI / 2 );nxGeometry.translate( - 50, 0, 0 );const pyGeometry = new THREE.PlaneGeometry( 100, 100 );pyGeometry.attributes.uv.array[ 5 ] = 0.5;pyGeometry.attributes.uv.array[ 7 ] = 0.5;pyGeometry.rotateX( - Math.PI / 2 );pyGeometry.translate( 0, 50, 0 );const pzGeometry = new THREE.PlaneGeometry( 100, 100 );pzGeometry.attributes.uv.array[ 1 ] = 0.5;pzGeometry.attributes.uv.array[ 3 ] = 0.5;pzGeometry.translate( 0, 0, 50 );const nzGeometry = new THREE.PlaneGeometry( 100, 100 );nzGeometry.attributes.uv.array[ 1 ] = 0.5;nzGeometry.attributes.uv.array[ 3 ] = 0.5;nzGeometry.rotateY( Math.PI );nzGeometry.translate( 0, 0, - 50 );const geometries = [];for ( let z = 0; z < worldDepth; z ++ ) {for ( let x = 0; x < worldWidth; x ++ ) {const h = getY( x, z );matrix.makeTranslation(x * 100 - worldHalfWidth * 100,h * 100,z * 100 - worldHalfDepth * 100);const px = getY( x + 1, z );const nx = getY( x - 1, z );const pz = getY( x, z + 1 );const nz = getY( x, z - 1 );geometries.push( pyGeometry.clone().applyMatrix4( matrix ) );if ( ( px !== h && px !== h + 1 ) || x === 0 ) {geometries.push( pxGeometry.clone().applyMatrix4( matrix ) );}if ( ( nx !== h && nx !== h + 1 ) || x === worldWidth - 1 ) {geometries.push( nxGeometry.clone().applyMatrix4( matrix ) );}if ( ( pz !== h && pz !== h + 1 ) || z === worldDepth - 1 ) {geometries.push( pzGeometry.clone().applyMatrix4( matrix ) );}if ( ( nz !== h && nz !== h + 1 ) || z === 0 ) {geometries.push( nzGeometry.clone().applyMatrix4( matrix ) );}}}const geometry = BufferGeometryUtils.mergeGeometries( geometries );geometry.computeBoundingSphere();const texture = new THREE.TextureLoader().load( 'https://cdn.jsdelivr.net/gh/mrdoob/three.js@master/examples/textures/minecraft/atlas.png' );texture.colorSpace = THREE.SRGBColorSpace;texture.magFilter = THREE.NearestFilter;const mesh = new THREE.Mesh( geometry, new THREE.MeshLambertMaterial( { map: texture, side: THREE.DoubleSide } ) );scene.add( mesh );const ambientLight = new THREE.AmbientLight( 0xeeeeee, 3 );scene.add( ambientLight );const directionalLight = new THREE.DirectionalLight( 0xffffff, 12 );directionalLight.position.set( 1, 1, 0.5 ).normalize();scene.add( directionalLight );renderer = new THREE.WebGLRenderer( { antialias: true } );renderer.setPixelRatio( window.devicePixelRatio );renderer.setSize( window.innerWidth, window.innerHeight );renderer.setAnimationLoop( animate );container.appendChild( renderer.domElement );controls = new FirstPersonControls( camera, renderer.domElement );controls.movementSpeed = 1000;controls.lookSpeed = 0.125;controls.lookVertical = true;window.addEventListener( 'resize', onWindowResize );}function onWindowResize() {camera.aspect = window.innerWidth / window.innerHeight;camera.updateProjectionMatrix();renderer.setSize( window.innerWidth, window.innerHeight );controls.handleResize();}function generateHeight( width, height ) {const data = [], perlin = new ImprovedNoise(),size = width * height, z = Math.random() * 100;let quality = 2;for ( let j = 0; j < 4; j ++ ) {if ( j === 0 ) for ( let i = 0; i < size; i ++ ) data[ i ] = 0;for ( let i = 0; i < size; i ++ ) {const x = i % width, y = ( i / width ) | 0;data[ i ] += perlin.noise( x / quality, y / quality, z ) * quality;}quality *= 4;}return data;}function getY( x, z ) {if (x < 0 || x >= worldWidth || z < 0 || z >= worldDepth) {return 0; }return ( data[ x + z * worldWidth ] * 0.15 ) | 0;}function animate() {render();}function render() {controls.update( clock.getDelta() );renderer.render( scene, camera );}</script></body></html>"
                                 },
                                 "Next.txt": {
                                   "type": "file",
@@ -563,7 +565,44 @@
             }
           }
         },
-        "D_DRIVE": { "type": "folder", "children": {} }
+        "D_DRIVE": {
+          "type": "folder",
+          "children": {
+            "GeneratedContent": {
+              "type": "folder",
+              "generateFolders": 999,
+              "children": {
+                "folder_1": {
+                  "type": "folder",
+                  "children": {
+                    "ReadMe.txt": {
+                      "type": "file",
+                      "content": {
+                        "en": "This folder was explicitly defined and was NOT overwritten by the generator.",
+                        "uk": "Ця папка була визначена явно і НЕ була перезаписана генератором.",
+                        "ru": "Эта папка была определена явно и НЕ была перезаписана генератором.",
+                        "zh": "这个文件夹是明确定义的，并且没有被生成器覆盖。",
+                        "ar": "تم تعريف هذا المجلد بشكل صريح ولم يتم الكتابة فوقه بواسطة المولد.",
+                        "hi": "यह फ़ोल्डर स्पष्ट रूप से परिभाषित किया गया था और जनरेटर द्वारा अधिलेखित नहीं किया गया था।",
+                        "es": "Esta carpeta se definió explícitamente y NO fue sobrescrita por el generador.",
+                        "bn": "এই ফোল্ডারটি স্পষ্টভাবে সংজ্ঞায়িত করা হয়েছিল এবং জেনারেটর দ্বারা ওভাররাইট করা হয়নি।",
+                        "pt": "Esta pasta foi definida explicitamente e NÃO foi sobrescrita pelo gerador.",
+                        "ja": "このフォルダーは明示的に定義されており、ジェネレーターによって上書きされませんでした。",
+                        "de": "Dieser Ordner wurde explizit definiert und NICHT vom Generator überschrieben.",
+                        "ko": "이 폴더는 명시적으로 정의되었으며 생성기에 의해 덮어쓰여지지 않았습니다.",
+                        "fr": "Ce dossier a été défini explicitement et n'a PAS été écrasé par le générateur."
+                      }
+                    }
+                  }
+                },
+                "🖖": {
+                  "type": "folder",
+                  "children": {}
+                }
+              }
+            }
+          }
+        }
       }
     }
   }
